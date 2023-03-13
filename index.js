@@ -5,7 +5,7 @@ import express from 'express';
 const app = express();
 
 app.listen(4444, () =>{
-  console.log('Example app listening on port 3000!');
+  console.log('Example app listening on port 4444!');
 });
 
  app.get('/search', async (req, res) => {
